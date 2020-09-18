@@ -1,0 +1,147 @@
+/* FONTS:
+font-family: 'Poppins', sans-serif;
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 4em;
+    color: #9f9b74
+}
+
+a {
+    text-decoration: none;
+    color: #9f9b74;
+    font-size: 1.3em;
+    padding: 9px;
+    display: inline-block;
+    text-align: center;
+}
+
+p {
+    color: white;
+    display: block;
+    font-size: 2em;
+    padding-top: 10px;
+}
+
+.navbar a:hover {
+    border: 1px solid;
+    border-radius: 30px 30px 30px 30px;
+    background: #9f9b74;
+    color: black;
+}
+
+.navbar a:hover {
+    display: inline-block;
+    text-align: center;
+}
+
+/* SECION A */
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-right: 25px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.col-1 {
+    flex-basis: 50%;
+    min-width: 400;
+    text-align: left;
+}
+
+.section-a .col-2 {
+    flex-basis: 50%;
+    min-width: 300;
+    text-align: right;
+}
+
+.section-a .col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #9f9b74;
+    color: black;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    font-size: 1.5em;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background:#666600;
+    color:white;
+}
+.section-a {
+    background: radial-gradient(black, #212930);
+}
+/* SECTION B */
+.section-b{
+margin: 70px 0;
+}
+
+
+
+.section-b .row .col-1,.section-b .col-2,.section-b .col-3 {
+    flex-basis: 30%;
+    min-width:250px;
+}
+
+
+.col-1 img,.col-2 img,.col-3 img {
+    width: 100%;
+    padding: 50px 0;
+}
+.small-container {
+    max-width:1080px;
+    margin:auto;
+    padding-left: 25px;
+    padding-right:25px;
+}
+
+
+/* SECTION-C */
+
+.section-c .small-container h2{
+}
